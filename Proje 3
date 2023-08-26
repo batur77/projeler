@@ -1,0 +1,24 @@
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+1. Root 7 olarak belirlenir.
+2. 5, 7'nin solundan eklenir.
+3. 1, 5'in solundan eklenir.
+4. 8, 7'nin sağından eklenir.
+5. 3, 5'in sağından eklenir.
+6. 6, 3'ün sağından eklenir.
+7. 0, 1'in solundan eklenir.
+8. 9, 8'in sağından eklenir.
+9. 4, 3'ün sağından eklenir.
+10.2, 1'in sağından eklenir.
+Sonuç olarak, bu adımlarla oluşturulan Binary Search Tree aşağıdaki gibi olur:
+     7
+    / \
+   5   8
+  / \   \
+ 1   6   9
+  \     /
+   3   9
+    \
+     4
+      \
+       2
